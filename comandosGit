@@ -1,0 +1,181 @@
+este es un archivo de comandos
+     68  git -v
+   69  sudo apt install git
+   70  git -v
+   71  git --version
+  535  git --version
+  536  sudo add-apt-repository ppa:git-core/ppa
+  538  apt-get install git
+  539  sudo apt-get install git
+  540  git --version
+  542  git --versiom
+  543  git --version
+  564  git
+  565  git config --list
+  567  git config --global user.name "Julio Cardenas"
+  568  git config --global user.email juliocardenasr@gmail.com
+  569  git config --list
+  572  git ini
+  573  git init
+  575  ls .git
+  576  ls -la .git
+  580  git config --global color.ui true
+  581  git config --list
+  582  git status
+  583  git config --global color.ui auto
+  584  git status
+  585  git
+  586  git show
+  592  git status
+  593  git
+  595  git
+  596  git help -a
+  597  git init
+  598  git status
+  599  nano .git-config
+  604  nano .gitconfig
+  610  git status
+  611  git st
+  612  nano .gitconfig
+  614  git st
+  615  git
+  616  git st
+  618  git st
+  620  git st
+  622  git add index.html 
+  623  git st
+  624  git commit -m "inicializar nuestro landing"
+  626  git st
+  627  git log
+  628  git st
+  629  git add index.html
+  630  git st
+  631  git add header.jpg
+  632  git st
+  633  git commit -m "agregando el header"
+  634  git st
+  635  git log
+  636  git add index.html
+  637  git st
+  638  git commit "agregando Hero"
+  639  git commit -m "agregando Hero"
+  640  git log
+  641  git st
+  642  git add hero.jpg
+  643  git commit --amend
+  644  git log
+  645  git st
+  646  git status
+  647  git tag -a 0.5 -m "version estable del proyecto"
+  648  git -l
+  649  git tag -l
+  650  git tag -la
+  651  git tag -l --column
+  652  git tag -l
+  653  git log
+  654  git tag -a 0.3 9d3ab2f70ccf7e722c4b7cf33e6eec93af920350
+  655  git tag  0.3 9d3ab2f70ccf7e722c4b7cf33e6eec93af920350
+  656  git tag -l
+  657  git log
+  658  sudo apt-get install gitg
+  662  gitg
+  664  curl -O https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh
+  667  whereis gitd
+  668  whereis gitg
+  669  cd /usr/share/gitg
+  686  whereis gitg
+  688  ls gitg*
+  690  git st
+  691  git log
+  692  git log --one line
+  693  git log --oneline
+  694  git log --oneline --graph
+  695  git log --oneline --graph -all
+  696  git log --oneline --graph --all
+  697  git log --oneline --graph --decorate --all
+  698  git log --oneline --graph  --all
+  700  git log --oneline --graph  --all
+  708  cp geany.desktop gitd.desktop
+  709  nano gitd.desktop 
+  710  gitd
+  711  nano gitd.desktop 
+  712  mv gitd.desktop gitg.desktop
+  729  git log --oneline --graph  --all
+  731  git log --oneline --graph  --all
+  734  git log --oneline --graph  --all
+  736  git log --oneline --graph  --all
+  738  git init
+  739  git add A
+  740  git add /all
+  741  git add /All
+  742  git add ?
+  743  help git
+  744  git --help
+  745  git add --help
+  746  git add --all
+  747  git status
+  749  git commit -m "Esqueleto inicial"
+  750  git log
+  753  git log
+  754  git log --oneline
+  755  git log --oneline --graph
+  757  gitlog
+  758  git log --oneline
+  760  git checkout responsive
+  761  git status
+  762  git log --oneline
+  764  git status
+  765  git add -A
+  766  git commit -m "cambio1"
+  767  git status
+  769  git add -A
+  770  git commit -m "cambio2"
+  771  git log --oneline
+  774  git add -A
+  775  git commit -m "agregando hotfix2"
+  777  git add -A
+  778  git commit -m "cambio3"
+  779  git log --oneline
+  780  git checkout master
+  781  git checkout -b hotfix2
+  782  git cherry-pick cb0495b
+  783  git log
+  784  git checkout master
+  785  git merge hotfix2
+  786  git log --oneline --graph
+  787  git checkout responsive
+  788  git log --oneline
+  790  git add -A
+  791  git commit -m "cambio4"
+  792  git log --oneline
+  793  git checkout master
+  794  git merge responsive
+  795  git log --oneline --graph
+  799  git --help
+  800  git show --help
+  801  git show config
+  802  git show
+  803  git show --config
+  804  git show conf
+  805  git config --show
+  806  git config --show --global
+  807  git config --global
+  808  git config --global --list
+  828  git remote add origin git@github.com:juliocardenasr/cursoGit.git
+  829  git remote -v
+  830  git config --global --list
+  831  git config --local --list
+  832  git fetch origin master
+  833  git status
+  834  git log --oneline --all
+  835  ssh -T git@github.com
+  836  git merge origin/master
+  837  git merge origin/master --allow-unrelated-histories 
+  838  git log --oneline 
+  840  history | grep git
+  841  pbcopy < history | grep git
+  842  history | grep git > jjj
+
+
+
+ssh-keygen -t -rsa -b 4096 -C "juliocardenasr@gmail.com"
